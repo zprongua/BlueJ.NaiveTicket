@@ -36,7 +36,7 @@ public class TicketMachineTest
         
         testTicketMachine.insertMoney(20);
         
-        assertEquals(Integer.valueOf(20), testTicketMachine.getBalance());     
+        assertEquals(Integer.valueOf(20), testTicketMachine.getAmount());     
     }
     
     @Test
